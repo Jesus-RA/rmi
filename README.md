@@ -10,7 +10,8 @@
 
 ### Ejecución del servidor
 
-> En la clase servidor se debe poner localhost como dirección IP y especificar la IP pública en la terminal en hostname
+
+> En la clase servidor se debe poner localhost como dirección IP al registrar el objeto remoto y especificar la IP pública en la terminal en hostname.
 
 
 ```
@@ -19,9 +20,11 @@
 
 > *Al final de la URL es importante poner un '/' para que busque el archivo stub dentro del folder.*
 
+
 `
   -Djava.rmi.server.codebase=https://github.com/Jesus-RA/rmi/tree/master/file/
 `
+
 
 ### Ejecución del cliente
 
