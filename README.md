@@ -10,11 +10,14 @@
 
 ### Ejecución del servidor
 
-```
-  java -Djava.rmi.server.hostname=IP_Pública_Servidor -Djava.security.policy=policy.txt -Djava.rmi.server.codebase=URL_Stub FileServer
+> En la clase servidor se debe poner localhost como dirección IP y especificar la IP pública en la terminal en hostname
+
 
 ```
-*Al final de la URL es importante poner un / para que busque el archivo stub dentro del folder.*
+  java -Djava.rmi.server.hostname=IP_Pública_Servidor -Djava.security.policy=policy.txt -Djava.rmi.server.codebase=URL_Stub FileServer
+```
+
+> *Al final de la URL es importante poner un '/' para que busque el archivo stub dentro del folder.*
 
 `
   -Djava.rmi.server.codebase=https://github.com/Jesus-RA/rmi/tree/master/file/
