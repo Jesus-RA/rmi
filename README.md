@@ -2,10 +2,10 @@
 
 ### Ejecución rmi
 
-** En Windows **
+**En Windows**
 ` start rmiregistry puerto `
 
-** En linux y MAC **
+**En linux y MAC**
 ` rmiregistry puerto `
 
 ### Ejecución del servidor
