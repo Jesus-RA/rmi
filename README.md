@@ -11,7 +11,7 @@
 ### Ejecución del servidor
 
 
-> En la clase servidor se debe poner localhost como dirección IP al registrar el objeto remoto y especificar la IP pública en la terminal en hostname.
+> En la clase servidor se debe poner la IP local como dirección IP al registrar el objeto remoto y especificar la IP pública en la terminal en hostname.
 
 
 ```
